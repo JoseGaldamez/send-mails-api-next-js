@@ -4,7 +4,7 @@ import { type NextRequest, NextResponse } from "next/server";
 export function middleware(req: NextRequest) {
     console.log(req.nextUrl);
     const res = NextResponse.next();
-    res.headers.append("ACCESS-CONTROL-ALLOW-ORIGIN", "*");
+    res.headers.append("Access-Control-Allow-Origin", "*");
     return res;
 }
 
