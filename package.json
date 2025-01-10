@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "next": "15.1.2",
     "nodemailer": "^6.9.16",
     "react": "^19.0.0",
